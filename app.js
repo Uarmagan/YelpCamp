@@ -54,6 +54,5 @@ app.use("/campgrounds/:id/comments", commentRoutes);
 
 
 app.listen(process.env.PORT || 8080, function() {
-  var port = server.address().port;
-  console.log("The YelpCamp Server Has Started on port " + port);
+  console.log("The YelpCamp Server Has Started on port");
 });
